@@ -378,3 +378,31 @@ footer .inner {
   margin-bottom: 1rem;
   filter: drop-shadow(0 4px 8px rgba(15, 23, 42, 0.35));
 }
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.course-table th {
+  background: #eff3f9;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  color: #0f274a;
+  font-size: 0.9rem;
+}
+
+.course-table td {
+  padding: 13px;
+  border-bottom: 1px solid #e8edf4;
+  font-size: 0.88rem;
+  color: #2f3d56;
+}
+
+.course-table tr:last-child td {
+  border-bottom: none;
+}
