@@ -440,3 +440,9 @@ footer .inner {
 .course-table tbody tr:nth-child(even) {
   background: #f3f4ff;
 }
+.hero-logo {
+  width: 180px;      /* ZWIĘKSZALNY ROZMIAR */
+  max-width: 100%;
+  margin: 0 auto 1rem;
+  display: block;
+}
