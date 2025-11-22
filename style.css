@@ -438,3 +438,51 @@ footer .inner {
     padding-top: 2rem;
   }
 }
+/* === TABELA KURSÓW (ładna, nowoczesna) === */
+
+.table-wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.course-table thead {
+  background: #f3f4f6;
+}
+
+.course-table th {
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  color: #0f274a;
+  border-bottom: 1px solid #d9dce3;
+}
+
+.course-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eef0f5;
+  color: #2f3d56;
+}
+
+.course-table tr:last-child td {
+  border-bottom: none;
+}
+
+.course-table tbody tr:hover {
+  background: #f7f9ff;
+}
+
+.course-note {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
